@@ -1,0 +1,13 @@
+{
+  "name": "task-api-demo",
+  "version": "1.0.0",
+  "description": "Simple Task API for AI PR Review Demo",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
