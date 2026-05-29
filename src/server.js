@@ -10,11 +10,12 @@ app.use("/tasks", taskRoutes);
 app.get("/", (req, res) => {
   res.json({
     status: "success",
-    message: "Task API"
+    message: "Task API is running"
   });
 });
 
-// adding commment to test
+const PORT = process.env.PORT;
+
 app.listen(PORT, () => {
   console.log(`🚀 Task API running on port ${PORT}`);
   console.log(`🌐 http://localhost:${PORT}`);
