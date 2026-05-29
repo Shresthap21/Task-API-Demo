@@ -13,8 +13,3 @@ app.get("/", (req, res) => {
     message: "Task API is running"
   });
 });
-
-const PORT = 4000;
-
-
-app.listen(PORT);
