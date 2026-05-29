@@ -8,8 +8,13 @@ app.use(express.json());
 app.use("/tasks", taskRoutes);
 
 app.get("/", (req, res) => {
-  res.json({
-    status: "success",
-    message: "Task API is running"
-  });
+
+});
+
+const PORT = 4000;
+
+
+app.listen(PORT, () => {
+  console.log(`🚀 Task API running on port ${PORT}`);
+  console.log(`🌐 http://localhost:${PORT}`);
 });
