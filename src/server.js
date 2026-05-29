@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
   });
 });
 
-const PORT = process.env.PORT;
+const PORT = 4000;
 
 app.listen(PORT, () => {
   console.log(`🚀 Task API running on port ${PORT}`);
